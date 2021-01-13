@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
 
     const obtenerDatos = async () => {
-
+ 
       try {
         
         const db = firebase.firestore()
